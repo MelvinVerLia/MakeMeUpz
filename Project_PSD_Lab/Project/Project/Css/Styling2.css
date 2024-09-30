@@ -1,0 +1,118 @@
+﻿body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    background-color: #C0EBA6;
+}
+
+.loginContainer {
+    width: 600px;
+    padding: 20px;
+    margin-top: 40%;
+    background-color: #3B3030;
+    border-radius: 20px;
+    color: white;
+}
+
+    .loginContainer h1, .registerContainer h1, .InsertContainer h1 {
+        font-family: Georgia;
+        margin-top: 0;
+        padding: 10px;
+        text-align: center;
+    }
+
+.registerContainer {
+    width: 600px;
+    padding: 20px;
+    margin-top: 20%;
+    background-color: #3B3030;
+    border-radius: 20px;
+    color: white;
+}
+
+
+.inputContainer {
+    margin-bottom: 15px;
+}
+
+.Username, .Password, .ConfPass, .Email, .Name, .Price, .Weight, .Type, .Brand, .Rating{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.Gender{
+    display:flex;
+    flex-direction:row;
+    margin-bottom: 10px;
+    gap: 10px;  
+}
+
+.LoginButton{
+    display: block;
+    width: 80%;
+    padding: 10px;
+    margin: 20px auto 1px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+    .LoginButton:hover {
+        background-color: #45a049;
+        transform: scale(1.05);
+    }
+
+.BackButton, .InsertButton {
+    display: block;
+    width: 20%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.ButtonContainer{
+    text-align:center;
+}
+.ButtonContainer2 {
+    display: flex;
+    justify-content:center;
+    gap: 250px;
+    margin-top: 20px;
+}
+
+.RegHover:hover {
+    color: #7CF5FF;
+    transform: scale(1.05);
+}
+
+.Calendar {
+    margin-top: 0;
+    background-color: #2196F3; 
+}
+
+    .Calendar td {
+        background-color: #f0f4f8;
+        color: black; 
+    }
+
+.InsertContainer{
+    margin-top: 35%;
+    height: 500px;
+    width: 400px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #3B3030;
+    color: white;
+}
+

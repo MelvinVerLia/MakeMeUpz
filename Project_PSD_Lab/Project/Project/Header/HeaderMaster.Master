@@ -1,0 +1,34 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="HeaderMaster.master.cs" Inherits="Project_Lab.Header.HeaderMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="~/Css/Styling.css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="navbar">
+            <div class="left-bar">
+                <asp:Button ID="HomeBtn" runat="server" CssClass="nav-button" Text="Home" OnClick="HomeBtn_Click" />
+                <asp:Button ID="OrderBtn" runat="server" CssClass="nav-button" Text="Order Makeup" OnClick="OrderBtn_Click" />
+                <asp:Button ID="HistoryBtn" runat="server" CssClass="nav-button" Text="History" OnClick="HistoryBtn_Click" />
+                <asp:Button ID="ManageBtn" runat="server" CssClass="nav-button" Text="Manage Makeup" OnClick="ManageBtn_Click" />
+                <asp:Button ID="QueueBtn" runat="server" CssClass="nav-button" Text="Order Queue" OnClick="QueueBtn_Click" />
+                <asp:Button ID="ProfileBtn" runat="server" CssClass="nav-button" Text="Profile" OnClick="ProfileBtn_Click" />
+                <asp:Button ID="TransactionBtn" runat="server" CssClass="nav-button" Text="Transaction Report" OnClick="TransactionBtn_Click" />
+            </div>
+            <div class="right-bar">
+                <asp:Button ID="LogoutBtn" runat="server" CssClass="nav-button" Text="Logout" OnClick="LogoutBtn_Click" />
+            </div>
+        </div>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
